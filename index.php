@@ -1,4 +1,4 @@
-<?$indexlemm =  array();
+<?php $indexlemm =  array();
 //массив для  индекса
 $index = array();
 ?>
