@@ -1,9 +1,4 @@
 AddType application/x-httpd-php .php
 AddType text/html .php
 
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.*$ /index.php [L,QSA]
-
 RewriteRule index.html /index.php
